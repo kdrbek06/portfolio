@@ -17,4 +17,17 @@ a:link, a:visited {
   .aboutContainer {
       background-image: url('../src/img/bg-image.jpg');
       min-height: 600px;
+      text-align: center;
+      box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+      background-attachment: fixed;
+
+
+    }
+
+  .aboutText {
+      padding: 150px;
+  }
+
+  .aboutTextTitle {
+      font-size: 2em;
   }
