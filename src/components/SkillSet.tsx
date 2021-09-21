@@ -7,24 +7,27 @@ import { SiLaravel } from 'react-icons/si';
 const SKILLS = [
   {
     Icon: IoLogoJavascript,
-    text: "this card is for react skills",
+    text: "This card is for JavaScript skills",
     title: "JavaScript",
   },
   {
-    Icon: IoLogoJavascript,
-    text: "this card is for react skills",
-    title: "JavaScript",
+    Icon: SiReact,
+    text: "This card is for react skills",
+    title: "React",
   },
   
   {
-    Icon: IoLogoJavascript,
-    text: "this card is for react skills",
-    title: "JavaScript",
+    Icon: SiPhp,
+    text: "This card is for PHP skills",
+    title: "PHP",
+
+  },
+  {
+    Icon: SiLaravel,
+    text: "this card is for Laravel skills",
+    title: "Laravel",
 
   }
-
-
-
 
 
 ];
@@ -41,16 +44,21 @@ export default function SkillSet () {
 
       {SKILLS.map((skill) => <Card {...skill}/>
 
-)}
+      )}
 
-{/* {SKILLS.map(({Icon, text, title}) => <Card Icon={Icon} text={text} title={title}/> */}
-
-        {/* <Card Icon={IoLogoJavascript} text={"this card is for react skills"} title={"JavaScript"}/>
-        <Card Icon={SiReact} text={"this card is for react skills"} title={"React"}/>
-        <Card Icon={SiPhp} text={"this card is for react skills"} title={"PHP"}/>
-        <Card Icon={SiLaravel} text={"this card is for react skills"} title={"Lavarel"}/> */}
       </div>
     </div>
   );
 }
 
+
+
+
+{/* {SKILLS.map(({Icon, text, title}) => <Card Icon={Icon} text={text} title={title}/> */}
+
+
+        {/* <Card Icon={IoLogoJavascript} text={"this card is for react skills"} title={"JavaScript"}/>
+        <Card Icon={SiReact} text={"this card is for react skills"} title={"React"}/>
+        <Card Icon={SiPhp} text={"this card is for react skills"} title={"PHP"}/>
+        <Card Icon={SiLaravel} text={"this card is for react skills"} title={"Lavarel"}/> */}
+   
