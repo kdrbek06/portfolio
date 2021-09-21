@@ -15,7 +15,7 @@ a:link, a:visited {
 
   .aboutContainer {
       background-image: url('../src/img/bg-image.jpg');
-      min-height: 600px;
+      min-height: 1000px;
       text-align: center;
       box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
       background-attachment: fixed;
@@ -33,4 +33,15 @@ a:link, a:visited {
 
   .container { 
     text-align: center;
+  }
+
+  .skillContainer {
+    padding: 50px;
+    background-color: #EBEBEB;
+  }
+
+  .card svg {
+    width: 50px !important;
+    height: 50px !important;
+
   }
