@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AboutMe from "./components/AboutMe"
+import Navigation from "./components/Navigation";
+import SkillSet from "./components/SkillSet";
+import Contact from "./components/Contact";
+import Portfolio from "./components/Portfolio";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+export default function App() {
+    return (
+    <div className="container">
+        <Navigation/>
+        <SkillSet/>
+        <AboutMe/>
+        <Portfolio/>
+        <Contact/>
     </div>
-  );
+    )
+
 }
 
-export default App;
+
+// import * as React from 'react';
+
+// export interface IAppProps {
+//     name: string;
+//     lastname: string;
+// }
+
+// export default function App ({name, lastname}:IAppProps) {
+//   return (
+//     <div>
+    
+//     </div>
+//   );
+// }
