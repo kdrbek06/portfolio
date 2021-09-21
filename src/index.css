@@ -2,7 +2,6 @@ a:link, a:visited {
     background-color: white;
     color: black;
     padding: 10px 20px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     border-radius: 5px;
@@ -30,4 +29,8 @@ a:link, a:visited {
 
   .aboutTextTitle {
       font-size: 2em;
+  }
+
+  .container { 
+    text-align: center;
   }

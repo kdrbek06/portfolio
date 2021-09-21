@@ -12,8 +12,8 @@ export default function App() {
     return (
     <div className="container">
         <Navigation/>
-        <SkillSet/>
         <AboutMe/>
+        <SkillSet/>
         <Portfolio/>
         <Contact/>
     </div>
