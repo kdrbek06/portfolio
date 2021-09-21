@@ -1,36 +1,20 @@
+import Card from './Card';
+import { IoLogoJavascript } from 'react-icons/io';
+
+
 export default function SkillSet () {
   return (
-    <div>
+    <div className="skillContainer">
+
       <div>
           <h3>Skillset</h3>
       </div>
-      <div>
+
       <div className="card-group">
-  <div className="card">
-    <img className="card-img-top" src="..." alt="Card image cap"/>
-    <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div className="card">
-    <img className="card-img-top" src="..." alt="Card image cap"/>
-    <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div className="card">
-    <img className="card-img-top" src="..." alt="Card image cap"/>
-    <div className="card-body">
-      <h5 className="card-title">Card title</h5>
-      <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
+        <Card Icon={IoLogoJavascript} text={"this card is for react skills"} title={"JavaScript"}/>
+        <Card Icon={IoLogoJavascript} text={"this card is for react skills"} title={"React"}/>
+        <Card Icon={IoLogoJavascript} text={"this card is for react skills"} title={"PHP"}/>
+        <Card Icon={IoLogoJavascript} text={"this card is for react skills"} title={"Lavarel"}/>
       </div>
     </div>
   );
