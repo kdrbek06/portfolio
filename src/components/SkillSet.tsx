@@ -15,21 +15,16 @@ const SKILLS = [
     text: "This card is for react skills",
     title: "React",
   },
-  
   {
     Icon: SiPhp,
     text: "This card is for PHP skills",
     title: "PHP",
-
   },
   {
     Icon: SiLaravel,
     text: "this card is for Laravel skills",
     title: "Laravel",
-
   }
-
-
 ];
 
 export default function SkillSet () {
@@ -39,13 +34,9 @@ export default function SkillSet () {
       <div>
           <h3>Skillset</h3><br />
       </div>
-
+      
       <div className="card-group">
-
-      {SKILLS.map((skill) => <Card {...skill}/>
-
-      )}
-
+          {SKILLS.map((skill) => <Card {...skill}/>)}
       </div>
     </div>
   );

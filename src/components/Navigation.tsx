@@ -4,7 +4,7 @@ import Logo from '../img/logo192.png'
 export default function Navigation () {
   return (
     <div>
-        <nav className="navbar navbar-light bg-light">
+        <nav className="navbar fixed-top navbar-light bg-light">
            <div>
                 <a className="navbar-brand" href="#skillSet">
                 <img src={Logo} width="30" height="30" className="d-inline-block align-top" alt="" />

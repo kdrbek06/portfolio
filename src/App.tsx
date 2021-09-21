@@ -10,7 +10,7 @@ import Portfolio from "./components/Portfolio";
 
 export default function App() {
     return (
-    <div className="container">
+    <div className="container-fluid">
         <Navigation/>
         <AboutMe/>
         <SkillSet/>
