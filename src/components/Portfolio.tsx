@@ -27,7 +27,7 @@ const PROJECTS = [
 
 export default function Portfolio () {
   return (
-    <div>
+    <div className="portfolioContainer" id="portfolio">
 
       <div>
         <h3>Portfolio</h3><br />

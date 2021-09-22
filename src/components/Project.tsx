@@ -7,7 +7,7 @@ export interface IAppProps {
 
 export default function Project({ image, title, text }: IAppProps) {
     return (
-        <div className="card">
+        <div className="card projectCard">
             <img src={image} className="card-img-top" alt="..."/>
             <div className ="card-body">
             <h5 className ="card-title">{title}</h5>

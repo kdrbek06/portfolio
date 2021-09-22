@@ -14,7 +14,7 @@ export default function Navigation () {
            <div className="navLink">
                <a href="#aboutMe">About Me</a>
                <a href="#skillSet">Skillsets</a>
-               <a href="">Portfolio</a>
+               <a href="#portfolio">Portfolio</a>
                <a href="">Contact</a>
             </div>
         </nav>
