@@ -30,7 +30,7 @@ export default function Portfolio () {
     <div className="portfolioContainer" id="portfolio">
 
       <div>
-        <h3>Portfolio</h3><br />
+        <h2>Portfolio</h2><br />
       </div>
 
       <div className="card-group">

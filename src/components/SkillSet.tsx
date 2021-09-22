@@ -32,7 +32,7 @@ export default function SkillSet () {
     <div className="skillContainer" id="skillSet">
 
       <div>
-          <h3>Skillset</h3><br />
+          <h2>Skillset</h2><br />
       </div>
 
       <div className="card-group">
