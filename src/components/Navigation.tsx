@@ -6,14 +6,14 @@ export default function Navigation () {
     <div>
         <nav className="navbar fixed-top navbar-light bg-light navContainer">
            <div>
-                <a className="navbar-brand" href="#skillSet">
+                <a className="navbar-brand" href="/">
                 <img src={Logo} width="30" height="30" className="d-inline-block align-top" alt="" />
                         Welcome My Portfolio
                 </a>
            </div>
            <div className="navLink">
-               <a href="">About Me</a>
-               <a href="">Skillsets</a>
+               <a href="#aboutMe">About Me</a>
+               <a href="#skillSet">Skillsets</a>
                <a href="">Portfolio</a>
                <a href="">Contact</a>
             </div>
