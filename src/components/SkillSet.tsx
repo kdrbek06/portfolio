@@ -34,7 +34,7 @@ export default function SkillSet () {
       <div>
           <h3>Skillset</h3><br />
       </div>
-      
+
       <div className="card-group">
           {SKILLS.map((skill) => <Card {...skill}/>)}
       </div>
