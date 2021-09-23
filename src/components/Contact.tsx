@@ -12,7 +12,7 @@ export default function Contact() {
 
 
   return (
-    <div className="contactContainer">
+    <div className="contactContainer" id="contact">
       <div>
         <h2>Contact</h2>
         <p>I'm eager to hear from you! I'm available for work</p>

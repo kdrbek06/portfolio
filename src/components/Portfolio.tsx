@@ -14,21 +14,21 @@ const PROJECTS = [
     image: project1,
     title: "React project",
     text: "This is my first project",
-    githubLink: "https://github.com/kdrbek06/crud/tree/main/Starter-pack",
+    githubLink: "#",
+    liveLink: "#"
+  },
+  {
+    image: WeatherApp,
+    title: "React project",
+    text: "This is my first project",
+    githubLink: "#",
     liveLink: "#"
   },
   {
     image: project1,
     title: "React project",
     text: "This is my first project",
-    githubLink: "https://github.com/kdrbek06/crud/tree/main/Starter-pack",
-    liveLink: "#"
-  },
-  {
-    image: project1,
-    title: "React project",
-    text: "This is my first project",
-    githubLink: "https://github.com/kdrbek06/crud/tree/main/Starter-pack",
+    githubLink: "#",
     liveLink: "#"
   }
 ]

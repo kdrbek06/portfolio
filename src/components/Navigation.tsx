@@ -15,7 +15,7 @@ export default function Navigation () {
                <a href="#aboutMe">About Me</a>
                <a href="#skillSet">Skillsets</a>
                <a href="#portfolio">Portfolio</a>
-               <a href="">Contact</a>
+               <a href="#contact">Contact</a>
             </div>
         </nav>
     </div>
