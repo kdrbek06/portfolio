@@ -38,6 +38,7 @@ a:active {
   text-align: center;
   background-image: url("../src/img/bg-image.jpg");
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .skillContainer {
@@ -100,5 +101,21 @@ a:active {
 
 .contactLinks a {
   padding: 0;
-  margin: 0;
+  margin-top: 30px;
+  background-color: transparent;
+  margin-left: 40px;
+
+}
+.portfolioContainer h2,
+.skillContainer h2,
+.contactContainer h2 {
+  font-size: 2.5em;
+}
+
+.contactContainer p {
+  font-size: 1.5em;
+}
+
+.contactContainer {
+  padding-bottom: 50px;
 }

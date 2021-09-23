@@ -8,7 +8,7 @@ export default function Navigation () {
            <div>
                 <a className="navbar-brand" href="/">
                 <img src={Logo} width="30" height="30" className="d-inline-block align-top" alt="" />
-                        Welcome My Portfolio
+                        Home
                 </a>
            </div>
            <div className="navLink">

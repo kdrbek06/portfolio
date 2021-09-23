@@ -18,15 +18,15 @@ export default function Contact() {
         <p>I'm eager to hear from you! I'm available for work</p>
       </div>
 
-      <IconContext.Provider value={{size:"1.3em"}}>
+      <IconContext.Provider value={{size:"2em"}}>
 
         <div className="contactLinks">
 
-          <a href="https://www.linkedin.com/in/kdrbek/"><SiLinkedin /></a>
-          <a href="https://github.com/kdrbek06/"><SiGithub /></a>
-          <a href="https://discordapp.com/users/405814490433585163/"><SiDiscord /></a>
-          <a href="https://www.instagram.com/kdrbek/"><SiInstagram /></a>
-          <a href="https://twitter.com/kadirbek/"><SiTwitter /></a>
+          <a href="https://www.linkedin.com/in/kdrbek/" target="_blank"><SiLinkedin /></a>
+          <a href="https://github.com/kdrbek06/" target="_blank"><SiGithub /></a>
+          <a href="https://discordapp.com/users/405814490433585163/" target="_blank"><SiDiscord /></a>
+          <a href="https://www.instagram.com/kdrbek/" target="_blank"><SiInstagram /></a>
+          <a href="https://twitter.com/kadirbek/" target="_blank"><SiTwitter /></a>
 
         </div>
 
