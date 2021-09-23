@@ -64,7 +64,7 @@ a:active {
 .navbar {
   padding: 50px;
   background-color: #E9E9E9;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* .bg-nBlue {
@@ -123,8 +123,4 @@ a:active {
 
 .contactContainer {
   padding-bottom: 50px;
-}
-
-.profilPicture {
-  
 }
