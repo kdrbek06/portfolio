@@ -1,6 +1,6 @@
 a:link,
 a:visited {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.788);
   color: black;
   padding: 10px 20px;
   text-decoration: none;
@@ -16,16 +16,32 @@ a:active {
 }
 
 .aboutContainer {
-  min-height: 800px;
   text-align: center;
-  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255,);
   margin-bottom: 100px;
+  margin-top: 100px;
   padding: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+}
+
+.aboutProfile {
+  display: flex
+}
+
+.aboutContact .contactLinks {
+  display: flex;
+  flex-direction: column;
 }
 
 .aboutText {
   font-size: x-large;
-  padding: 150px;
+  padding: 200px;
+  margin-top: -100px;
+  
 }
 
 .aboutTextTitle {
@@ -47,8 +63,11 @@ a:active {
   background-color: #ebebeb;
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(5px);
+  border-radius: 5px;
 
 }
+
+
 
 .card svg {
   width: 50px;
@@ -56,15 +75,17 @@ a:active {
   margin: 30px auto;
 }
 
-.card a {
-  margin-left: 20px;
-  border-radius: 20px;
+.card a{
+  margin-left: 10px;
+  border-radius: 15px;
 }
+
+
 
 .navbar {
   padding: 50px;
   background-color: #E9E9E9;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 /* .bg-nBlue {
@@ -85,11 +106,13 @@ a:active {
   background-color: #ebebeb;
   background-color: rgba(255, 255, 255, 0.322);
   backdrop-filter: blur(5px);
+  border-radius: 5px;
+
 
 }
 
 .card {
-  border-radius: 20px !important;
+  border-radius: 15px !important;
   margin: 20px;
   background-color: #ebebeb;
   background-color: rgba(255, 255, 255, 0.8) !important;
@@ -100,8 +123,6 @@ a:active {
 .portfolioImage {
   border-radius: 8px;
   margin: 20px;
-  
-
 }
 
 .contactLinks a {
@@ -124,3 +145,35 @@ a:active {
 .contactContainer {
   padding-bottom: 50px;
 }
+
+.aboutText a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+.projectCard {
+  display: flex;
+  flex-direction:column;
+  width: 25%;
+  margin: 0;
+  justify-content: space-between;
+  background-color: #ebebeb;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.projectText {
+  justify-content: flex-end;
+}
+
+.portfolioCards {
+  display: flex;
+  flex-direction: row;
+  
+
+}
+

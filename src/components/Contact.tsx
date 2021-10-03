@@ -13,11 +13,7 @@ export default function Contact() {
 
   return (
     <div className="contactContainer" id="contact">
-      <div>
-        <h2>Contact</h2>
-        <p>I'm eager to hear from you! I'm available for work</p>
-      </div>
-
+      
       <IconContext.Provider value={{size:"2em"}}>
 
         <div className="contactLinks">

@@ -10,13 +10,20 @@ import Portfolio from "./components/Portfolio";
 
 export default function App() {
     return (
-    <div className="container-fluid">
-        <Navigation/>
-        <AboutMe/>
-        <SkillSet/>
-        <Portfolio/>
-        <Contact/>
-    </div>
+        <div className="container-fluid">
+            <Navigation />
+            <AboutMe />
+            <SkillSet />
+            <Portfolio />
+            <div>
+                <h2>Contact</h2>
+                <p>I'm eager to hear from you! I'm available for work</p>
+            </div>
+            <Contact />
+            <div>
+                <p>Copyright &copy; {new Date().getFullYear()}  https://kadirbek.netlify.app</p><br />
+            </div>
+        </div>
     )
 
 }
@@ -32,7 +39,7 @@ export default function App() {
 // export default function App ({name, lastname}:IAppProps) {
 //   return (
 //     <div>
-    
+
 //     </div>
 //   );
 // }
