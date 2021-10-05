@@ -19,7 +19,7 @@ export default function App() {
                 <h2>Contact</h2>
                 <p>I'm eager to hear from you! I'm available for work</p>
             </div>
-            <Contact />
+            <Contact id="footerContact" />
             <div>
                 <p>Copyright &copy; {new Date().getFullYear()}  https://kadirbek.netlify.app</p><br />
             </div>

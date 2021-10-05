@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 a:link,
 a:visited {
   background-color: rgba(255, 255, 255, 0.788);
@@ -29,7 +33,11 @@ a:active {
 }
 
 .aboutProfile {
-  display: flex
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex:1;
+  margin: 25px;
 }
 
 .aboutContact .contactLinks {
@@ -37,12 +45,7 @@ a:active {
   flex-direction: column;
 }
 
-.aboutText {
-  font-size: x-large;
-  padding: 200px;
-  margin-top: -100px;
-  
-}
+
 
 .aboutTextTitle {
   font-size: xx-large;
@@ -52,7 +55,7 @@ a:active {
 
 .container-fluid {
   text-align: center;
-  background-image: url("../src/img/bg-image.jpg");
+  background-image: url("../src/img/bg-image.svg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -122,7 +125,8 @@ a:active {
 
 .portfolioImage {
   border-radius: 8px;
-  margin: 20px;
+  margin: auto;
+  width: 150px;
 }
 
 .contactLinks a {
@@ -159,11 +163,16 @@ a:active {
 .projectCard {
   display: flex;
   flex-direction:column;
-  width: 25%;
-  margin: 0;
   justify-content: space-between;
   background-color: #ebebeb;
   background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  margin: 25px;
+  flex: 1;
+  border-radius: 15px;
+  width: 25%;
+
+ 
 }
 
 .projectText {
@@ -173,7 +182,16 @@ a:active {
 .portfolioCards {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   
 
 }
 
+
+.imageContainer {
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}

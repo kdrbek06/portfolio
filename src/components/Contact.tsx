@@ -6,13 +6,17 @@ import { SiGithub } from "react-icons/si";
 import { SiDiscord } from "react-icons/si";
 
 
-export default function Contact() {
+type ContactProps = {
+  id: string;
+};
 
+
+export default function Contact({id}:ContactProps) {
 
 
 
   return (
-    <div className="contactContainer" id="contact">
+    <div className="contactContainer" {...{id}}>
       
       <IconContext.Provider value={{size:"2em"}}>
 

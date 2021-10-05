@@ -1,7 +1,7 @@
 import Project from "./Project";
 import project1 from "../img/project1.jpeg";
 import project2 from  "../img/project2.png"
-import WeatherApp from "../img/weatherapp.png"
+import WeatherApp from "../img/weather-app.png"
 
 const PROJECTS = [
   {

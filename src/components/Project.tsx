@@ -10,8 +10,9 @@ export interface IAppProps {
 export default function Project({ image, title, text, githubLink, liveLink }: IAppProps) {
     return (
         <div className="projectCard">
-
-            <img src={image} className="portfolioImage" alt="..." />
+            <div className="imageContainer">
+                <img src={image} className="portfolioImage" alt="..." />
+            </div>
 
             <div className="projectText">
 
