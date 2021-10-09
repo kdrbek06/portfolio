@@ -46,7 +46,7 @@ export default function Portfolio () {
       <div className="portfolioCards">
         {PROJECTS.map((project) => <Project {...project}/>)}
       </div>
-      
+
     </div>
   );
 }

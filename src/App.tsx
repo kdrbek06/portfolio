@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutMe from "./components/AboutMe"
 import Navigation from "./components/Navigation";
@@ -9,6 +9,16 @@ import Portfolio from "./components/Portfolio";
 
 
 export default function App() {
+    
+    
+
+
+
+
+
+
+
+
     return (
         <div className="container-fluid">
             <Navigation />

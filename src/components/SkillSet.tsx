@@ -27,17 +27,20 @@ const SKILLS = [
   }
 ];
 
-export default function SkillSet () {
+export default function SkillSet() {
   return (
+
     <div className="skillContainer" id="skillSet">
+      <div className="skillBg"></div>
 
       <div>
-          <h2>Skillset</h2><br />
+        <h2>Skillset</h2><br />
       </div>
 
       <div className="card-group">
-          {SKILLS.map((skill) => <Card {...skill}/>)}
+        {SKILLS.map((skill) => <Card {...skill} />)}
       </div>
+
     </div>
   );
 }
@@ -45,11 +48,11 @@ export default function SkillSet () {
 
 
 
-{/* {SKILLS.map(({Icon, text, title}) => <Card Icon={Icon} text={text} title={title}/> */}
+{/* {SKILLS.map(({Icon, text, title}) => <Card Icon={Icon} text={text} title={title}/> */ }
 
 
-        {/* <Card Icon={IoLogoJavascript} text={"this card is for react skills"} title={"JavaScript"}/>
+{/* <Card Icon={IoLogoJavascript} text={"this card is for react skills"} title={"JavaScript"}/>
         <Card Icon={SiReact} text={"this card is for react skills"} title={"React"}/>
         <Card Icon={SiPhp} text={"this card is for react skills"} title={"PHP"}/>
         <Card Icon={SiLaravel} text={"this card is for react skills"} title={"Lavarel"}/> */}
-   
+

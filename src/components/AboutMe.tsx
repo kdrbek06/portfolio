@@ -9,10 +9,9 @@ export default function AboutMe() {
         <Contact id="aboutContact" />
       </div>
 
-      <div className="aboutProfile">
+      <div className="aboutMe">
         <p className="aboutTextTitle">Hi! I'm <strong>Kadir Bek</strong></p>
         <p>Fullstack Web Developer with curiosity and passion in Becode</p><br />
-        <a className="hireMe">Hire Me</a>
       </div>
       
     </div>
