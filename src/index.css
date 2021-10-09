@@ -1,23 +1,21 @@
-/* a:link, a:visited {
-    background-color: rgba(255, 255, 255, 0.788);
+a:link, a:visited {
+
     color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 5px;
+    border-radius: 20px;
+    background-color: transparent;
+
 }
 
 a:hover, a:active {
-    background-color: #0599FD;
-    color: rgb(255, 255, 255) !important;
-} */
+    background-color: #0067ac;
+    /* color: rgb(255, 255, 255) !important; */
+}
 
 .aboutContainer {
     text-align: center;
-    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, );
-    margin-bottom: 100px;
-    margin-top: 100px;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0);
     padding: 50px;
+    margin: 0px 15px 100px 15px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -50,15 +48,17 @@ a:hover, a:active {
     background-image: url("../src/img/bg-image.svg");
     background-attachment: fixed;
     background-size: cover;
+    padding: 0px !important;
 }
 
 .skillContainer {
     position: relative;
     padding: 50px;
-    margin-bottom: 100px;
+    padding-bottom: 75px;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(5px);
     border-radius: 5px;
+    margin: 0px 15px 100px 15px;
 }
 
 /* .skillBg {
@@ -77,24 +77,20 @@ a:hover, a:active {
     margin: 30px auto;
 }
 
-
-
-
-
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-}
-
 /* .bg-nBlue {
   background-color: rgba(24, 44, 57, .85);
   -webkit-box-shadow: 0 2px 4px rgb(24 44 57);
   box-shadow: 0 2px 4px rgb(24 44 57);
 } */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.5);
+    color: white;
+    padding: 1rem;
+}
 
 .navbar-links ul {
     margin: 0;
@@ -104,6 +100,7 @@ a:hover, a:active {
 
 .navbar-links li {
     list-style: none;
+
 }
 
 .navbar-links li a {
@@ -111,10 +108,11 @@ a:hover, a:active {
     color: white;
     padding: 1rem;
     display: block;
+
 }
 
 .navbar-links li:hover {
-    background-color:#555
+    /* background-color: #555 */
 }
 
 .toggle-button {
@@ -139,42 +137,36 @@ a:hover, a:active {
     .toggle-button {
         display: flex;
     }
-
     .navbar-links {
         display: none;
         width: 100%;
     }
-
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
-
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
     }
-
     .navbar-links li a {
         padding: .5rem 1rem;
     }
-
-
     /* add dot between two classes means 2 different class name */
     .navbar-links.active {
         display: flex;
     }
+    .aboutContact {
+        display: none;
+    }
 
+    .home-logo {
+        margin-bottom: 1rem;
+    }
 }
 
-
-
-
-
-
-
 .portfolioContainer {
-    margin-bottom: 100px;
+    margin: 0px 15px 100px 15px;
     padding: 50px;
     background-color: #ebebeb;
     background-color: rgba(255, 255, 255, 0.322);
@@ -255,5 +247,10 @@ a:hover, a:active {
 
 .hireMeButton {
     background-color: #20c997 !important;
+}
+
+.copy-right p{
+    margin: 0;
+    padding-bottom: 3px;
 }
 

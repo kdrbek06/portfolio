@@ -14,11 +14,6 @@ export default function App() {
 
 
 
-
-
-
-
-
     return (
         <div className="container-fluid">
             <Navigation />
@@ -30,8 +25,8 @@ export default function App() {
                 <p>I'm eager to hear from you! I'm available for work</p>
             </div>
             <Contact id="footerContact" />
-            <div>
-                <p>Copyright &copy; {new Date().getFullYear()}  https://kadirbek.netlify.app</p><br />
+            <div className="copy-right">
+                <p>Copyright &copy; {new Date().getFullYear()}  https://kadirbek.netlify.app</p>
             </div>
         </div>
     )

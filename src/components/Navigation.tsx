@@ -15,8 +15,8 @@ export default function Navigation() {
     <div>
       <nav className="navbar">
         <div>
-          <a className="navbar-brand" href="/">
-            <img src={Logo} width="30" height="30" className="homeLogo" alt="" />
+          <a className="navbar-logo" href="/">
+            <img src={Logo} width="40" height="40" className="home-logo" alt="" />
           </a>
         </div>
         
