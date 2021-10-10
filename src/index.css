@@ -90,7 +90,7 @@ a:hover, a:active {
     justify-content: space-between;
     background-color: rgba(51, 51, 51, 0.5);
     color: white;
-    padding: 1rem;
+    padding: .3rem !important;
 }
 
 .navbar-links ul {
