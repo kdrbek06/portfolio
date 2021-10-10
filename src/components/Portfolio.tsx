@@ -1,6 +1,6 @@
 import Project from "./Project";
 import project1 from "../img/project1.jpeg";
-import project2 from  "../img/project2.png"
+import Pokeball from  "../img/pokeball.png"
 import WeatherApp from "../img/weather-app.png"
 
 const PROJECTS = [
@@ -12,7 +12,7 @@ const PROJECTS = [
     liveLink: "https://kdrbek06.github.io/modern-javascript-application"
   },
   {
-    image: project2,
+    image: Pokeball,
     title: "Pokemon Cards - PHP",
     text: "A PHP CRUD project with a nice and simple interface",
     githubLink: "https://github.com/kdrbek06/crud",

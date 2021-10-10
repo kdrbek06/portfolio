@@ -55,7 +55,6 @@ a:hover, a:active {
 
 .skillContainer {
     position: relative;
-    padding: 50px;
     padding-bottom: 75px;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(5px);
@@ -73,11 +72,11 @@ a:hover, a:active {
     z-index: 0;
 } */
 
-.card svg {
+/* .card svg {
     width: 50px;
     height: 50px;
     margin: 30px auto;
-}
+} */
 
 /* .bg-nBlue {
   background-color: rgba(24, 44, 57, .85);
@@ -216,21 +215,30 @@ a:hover, a:active {
 }
 
 .projectImage {
-    border-radius: 8px;
-    margin: auto;
-    width: 150px;
+    max-width: 125px;
 }
+
+.skill-icon {
+    max-width: 75px;
+    margin: 1.5rem auto;
+}
+
+.responsive-img {
+    width: 100%;
+    height: auto;
+}
+
 
 .contactLinks a {
     padding: 0;
     margin-top: 30px;
     background-color: transparent;
-    margin-left: 40px;
+    margin: 1vw;
 }
 
-.portfolioContainer h2, .skillContainer h2, .contactContainer h2 {
+/* .portfolioContainer h2, .skillContainer h2, .contactContainer h2 {
     font-size: 2.5em;
-}
+} */
 
 .contactContainer p {
     font-size: 1.5em;

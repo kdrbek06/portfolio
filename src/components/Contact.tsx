@@ -18,7 +18,7 @@ export default function Contact({id}:ContactProps) {
   return (
     <div className="contactContainer" {...{id}}>
       
-      <IconContext.Provider value={{size:"2em"}}>
+      <IconContext.Provider value={{size : "1.5em"}}> 
 
         <div className="contactLinks">
 

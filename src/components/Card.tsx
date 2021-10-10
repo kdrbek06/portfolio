@@ -14,7 +14,7 @@ export default function Card ({Icon, text, title}: IAppProps) {
 
   return (
     <div className="card">
-        <Icon width={75} height={75}/>
+        <Icon className="skill-icon responsive-img" />
         <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{text}</p>
@@ -22,3 +22,6 @@ export default function Card ({Icon, text, title}: IAppProps) {
     </div>
   );
 }
+
+
+// width={75} height={75}

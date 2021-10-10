@@ -11,7 +11,7 @@ export default function Project({ image, title, text, githubLink, liveLink }: IA
     return (
         <div className="projectCard">
             <div className="imageContainer">
-                <img src={image} className="projectImage" alt="..." />
+                <img src={image} className="projectImage responsive-img" alt="..." />
             </div>
 
             <div className="projectText">

@@ -26,7 +26,7 @@ export default function App() {
             </div>
             <Contact id="footerContact" />
             <div className="copy-right">
-                <p>Copyright &copy; {new Date().getFullYear()}  https://kadirbek.netlify.app</p>
+                <p>Copyright &copy; {new Date().getFullYear()} </p>
             </div>
         </div>
     )
