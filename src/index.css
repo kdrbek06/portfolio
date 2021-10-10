@@ -117,7 +117,7 @@ a:hover, a:active {
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top: 1rem;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -133,7 +133,30 @@ a:hover, a:active {
     border-radius: 10px;
 }
 
-@media (max-width: 575px) {
+
+
+
+
+
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+
+
+
+@media (max-width: 1290px) {
+
+    .projectCard {
+        flex: 40% !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 575px) {
     .toggle-button {
         display: flex;
     }
@@ -161,13 +184,20 @@ a:hover, a:active {
     }
 
     .home-logo {
-        margin-bottom: 1rem;
+        margin-bottom: .5rem;
     }
+
+    .projectCard {
+        flex: 90% !important;
+        margin: 5% !important;
+    }
+
+
 }
 
 .portfolioContainer {
     margin: 0px 15px 100px 15px;
-    padding: 50px;
+    padding: 3%;
     background-color: #ebebeb;
     background-color: rgba(255, 255, 255, 0.322);
     backdrop-filter: blur(5px);
@@ -215,10 +245,9 @@ a:hover, a:active {
     background-color: #ebebeb;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
-    margin: 25px;
-    flex: 1;
+    margin: 1%;
+    flex: 20%;
     border-radius: 15px;
-    width: 25%;
 }
 
 .projectText {
