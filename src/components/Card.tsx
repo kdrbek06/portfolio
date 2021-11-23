@@ -1,4 +1,5 @@
 import { IconType } from "react-icons";
+import { readConfigFile } from "typescript";
 
 
 
@@ -22,6 +23,7 @@ export default function Card ({Icon, text, title}: IAppProps) {
     </div>
   );
 }
+
 
 
 // width={75} height={75}

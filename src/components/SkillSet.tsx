@@ -1,8 +1,9 @@
 import Card from './Card';
-import { IoLogoJavascript } from 'react-icons/io';
-import { SiReact } from 'react-icons/si';
-import { SiPhp } from 'react-icons/si';
-import { SiLaravel } from 'react-icons/si';
+import { SiReact, SiPhp, SiLaravel } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
+
+
+  
 
 const SKILLS = [
   {
