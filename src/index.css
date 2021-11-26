@@ -1,4 +1,4 @@
-a:link, a:visited {
+.projectCard a:link, .projectCard a:visited {
 
     color: black;
     border-radius: 20px;
@@ -6,9 +6,37 @@ a:link, a:visited {
 
 }
 
-a:hover, a:active {
-    background-color: #0067ac;
-    /* color: rgb(255, 255, 255) !important; */
+.projectCard a:hover, .projectCard a:active {
+    background-color: #0293f3;
+    color: white;
+
+}
+
+.navbar-links a:hover, .navbar-links a.active {
+    background-color: #1899f0;
+    border-radius: 10px;
+}
+
+.hireMeButton{
+    background-color: #20c997 !important;
+    border-radius: 10px;
+    
+}
+.hireMeButton:hover {
+    background-color: #1899f0 !important;
+}
+
+
+
+
+
+.contactContainer a {
+    color: black;
+}
+
+.contactContainer a:hover {
+    transform: scale(1.5);
+    color:white
 }
 
 .aboutContainer {
@@ -29,6 +57,8 @@ a:hover, a:active {
     flex: 1;
     margin: 1.5rem;
     font-size: 1.2em;
+    max-width: 60%;
+    
 }
 
 .aboutContact .contactLinks {
@@ -40,7 +70,7 @@ a:hover, a:active {
 }
 
 .aboutTextTitle {
-    font-size: 1.5em;
+    font-size: 2em;
     text-shadow: 0px 0px 5px rgb(11 9 9 / 95%);
     color: rgb(255, 255, 255);
 }
@@ -60,29 +90,8 @@ a:hover, a:active {
     backdrop-filter: blur(5px);
     border-radius: 5px;
     margin: 0px 15px 100px 15px;
+    padding-top: 50px;
 }
-
-/* .skillBg {
-    position: absolute;
-    left: -50px;
-    right: -50px;
-    top: 0;
-    bottom: 0;
-    transform: rotate(1.5deg);
-    z-index: 0;
-} */
-
-/* .card svg {
-    width: 50px;
-    height: 50px;
-    margin: 30px auto;
-} */
-
-/* .bg-nBlue {
-  background-color: rgba(24, 44, 57, .85);
-  -webkit-box-shadow: 0 2px 4px rgb(24 44 57);
-  box-shadow: 0 2px 4px rgb(24 44 57);
-} */
 
 .navbar {
     display: flex;
@@ -111,9 +120,6 @@ a:hover, a:active {
 
 }
 
-.navbar-links li:hover {
-    /* background-color: #555 */
-}
 
 .toggle-button {
     position: absolute;
@@ -153,6 +159,9 @@ a:hover, a:active {
         flex: 40% !important;
         margin-bottom: 3% !important;
     }
+    .aboutContact {
+        display: none;
+    }
 
 }
 
@@ -180,9 +189,7 @@ a:hover, a:active {
     .navbar-links.active {
         display: flex;
     }
-    .aboutContact {
-        display: none;
-    }
+    
 
     .home-logo {
         margin-bottom: .5rem;
@@ -284,12 +291,27 @@ a:hover, a:active {
     justify-content: center;
 }
 
-.hireMeButton {
-    background-color: #20c997 !important;
-}
+
 
 .copy-right p{
     margin: 0;
     padding-bottom: 3px;
 }
 
+
+.carousel-indicators li {
+    background-color: rgba(163, 255, 199, 0.897);
+    width: 50px;
+    height: 5px;
+    margin: 5px;
+    border-radius: 50px;
+  }
+  
+  .carousel-indicators .active {
+    background-color: rgb(101, 113, 216);
+  }
+
+
+  .col-md-3 {
+    float:left
+  }

@@ -18,12 +18,12 @@ const SKILLS = [
   },
   {
     Icon: SiPhp,
-    text: "This card is for PHP skills",
+    text: "COMING SOON...",
     title: "PHP",
   },
   {
     Icon: SiLaravel,
-    text: "this card is for Laravel skills",
+    text: "COMING SOON...",
     title: "Laravel",
   }
 ];

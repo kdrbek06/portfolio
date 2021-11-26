@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from '../img/k-letter.png'
-
+// import Resume from './../documents/resume.pdf'
 
 
 export default function Navigation() {
@@ -28,7 +28,7 @@ export default function Navigation() {
 
         <div className={"navbar-links" + (toggle? " active" : "")}>
           <ul>
-            <li><a href="" className="hireMeButton">Hire Me</a></li>
+            <li><a href={require('./../documents/kadir-bek-resume.pdf').default} className="hireMeButton" data-toggle="tooltip" data-placement="left" title="Click here to download the resume" download>Hire Me</a></li>
             <li><a href="#aboutMe">About Me</a></li>
             <li><a href="#skillSet">Skillsets</a></li>
             <li><a href="#portfolio">Portfolio</a></li>

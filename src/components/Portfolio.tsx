@@ -20,15 +20,15 @@ const PROJECTS = [
   },
   {
     image: WeatherApp,
-    title: "React project",
-    text: "This is my first project",
+    title: "Laravel project",
+    text: "COMING SOON...",
     githubLink: "#",
     liveLink: "#"
   },
   {
     image: project1,
-    title: "React project",
-    text: "This is my first project",
+    title: "PHP project",
+    text: "COMING SOON...",
     githubLink: "#",
     liveLink: "#"
   }
