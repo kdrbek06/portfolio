@@ -10,7 +10,7 @@ export default function AboutMe() {
       </div>
 
       <div className="aboutMe">
-        <p className="aboutTextTitle">Hi! I'm <strong>Kadir Bek</strong></p>
+        <p className="aboutTextTitle">Hi! I'm <strong>Kadir</strong></p>
         <p>Fullstack Web Developer with curiosity and passion in Becode. d I’m currently at the final stage of the full stack web developer training in BeCode. My contract
 will end on 3 December 2021 and I’m looking for a software developer position. </p><br />
       </div>
