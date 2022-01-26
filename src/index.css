@@ -216,7 +216,7 @@
     border-radius: 15px !important;
     margin: 20px;
     background-color: #ebebeb;
-    background-color: rgba(255, 255, 255, 0.8) !important;
+    background-color: rgba(255, 255, 255, 0.534) !important;
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(2px);
 }
@@ -260,7 +260,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #ebebeb;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.596);
     padding: 20px;
     margin: 1%;
     flex: 20%;
