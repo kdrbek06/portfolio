@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from '../img/k-letter.png'
+import { useMediaQuery } from 'react-responsive';
+
 // import Resume from './../documents/resume.pdf'
 
 
@@ -8,6 +10,14 @@ export default function Navigation() {
 
   // Toggle twitch button
   const[toggle, setToggle] = useState(false);
+  const isMobile = useMediaQuery({ query: '(max-width: 575px)' })
+
+  useEffect(() => {
+    if(!isMobile){setToggle(false)}
+  
+  }, [isMobile]);
+  
+
 
   
 
