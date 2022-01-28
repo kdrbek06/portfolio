@@ -12,6 +12,7 @@ export default function Navigation() {
   const[toggle, setToggle] = useState(false);
   const isMobile = useMediaQuery({ query: '(max-width: 575px)' })
 
+  // Hamburger twitch menu set closed first
   useEffect(() => {
     if(!isMobile){setToggle(false)}
   
@@ -24,8 +25,8 @@ export default function Navigation() {
   return (
     <div>
       <nav className="navbar">
-        <div>
-          <a className="navbar-logo" href="/">
+        <div className="text-center">
+          <a className="navbar-logo " href="/">
             <img src={Logo} width="40" height="40" className="home-logo" alt="" />
           </a>
         </div>
