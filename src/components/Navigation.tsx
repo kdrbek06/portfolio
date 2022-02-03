@@ -27,7 +27,7 @@ export default function Navigation() {
       <nav className="navbar">
         <div className="text-center">
           <a className="navbar-logo " href="/">
-            <img src={Logo} width="45" height="45" className="home-logo" alt="" />
+            <img src={Logo} width="40" height="40" className="home-logo" alt="" />
           </a>
         </div>
         
