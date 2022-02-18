@@ -26,7 +26,7 @@ export default function Contact({id}:ContactProps) {
           <a href="https://github.com/kdrbek06" target="_blank" rel="noreferrer"><SiGithub /></a>
           <a href="https://discordapp.com/users/405814490433585163/" target="_blank" rel="noreferrer"><SiDiscord /></a>
           <a href="https://www.instagram.com/kdrbek/" target="_blank" rel="noreferrer"><SiInstagram /></a>
-          <a href="https://twitter.com/kadirbek/" target="_blank" rel="noopener noreferrer"><SiTwitter /></a>
+          {/* <a href="https://twitter.com/kadirbek/" target="_blank" rel="noopener noreferrer"><SiTwitter /></a> */}
 
         </div>
 
