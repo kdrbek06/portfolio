@@ -28,7 +28,7 @@ const PROJECTS = [
   {
     image: project1,
     title: "PHP project",
-    text: "COMING SOON...",
+    text: "videotutorial website",
     githubLink: "#",
     liveLink: "#"
   }
