@@ -20,7 +20,7 @@ const PROJECTS = [
   },
   {
     image: WeatherApp,
-    title: "Laravel project",
+    title: "symfony project",
     text: "COMING SOON...",
     githubLink: "#",
     liveLink: "#"
