@@ -14,7 +14,7 @@ const PROJECTS = [
   {
     image: Pokeball,
     title: "Pokemon Cards - PHP",
-    text: "A PHP CRUD project with a nice and simple interface",
+    text: "A PHP CRUD project with a nice and simple interface.",
     githubLink: "https://github.com/kdrbek06/crud",
     liveLink: "https://github.com/kdrbek06/crud"
   },
