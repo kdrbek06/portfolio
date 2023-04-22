@@ -2,12 +2,7 @@ import React, { useState, useEffect } from "react";
 import Logo from '../img/k-letter.png'
 import { useMediaQuery } from 'react-responsive';
 
-// import Resume from './../documents/resume.pdf'
-
-
 export default function Navigation() {
-
-
   // Toggle twitch button
   const[toggle, setToggle] = useState(false);
   const isMobile = useMediaQuery({ query: '(max-width: 575px)' })
@@ -17,15 +12,11 @@ export default function Navigation() {
     if(!isMobile){setToggle(false)}
   
   }, [isMobile]);
-  
-
-
-  
 
   return (
     <div>
       <nav className="navbar">
-        <div className="text-center">
+        <div>
           <a className="navbar-logo " href="/">
             <img src={Logo} width="45" height="45" className="home-logo" alt="" />
           </a>
